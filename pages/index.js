@@ -63,7 +63,7 @@ export default function Home() {
               figuring out how they worked and fixing them again. When I
               finished high school, I knew exactly what I wanted my career to
               be.
-            </p>
+             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
               <AiFillLinkedin />
