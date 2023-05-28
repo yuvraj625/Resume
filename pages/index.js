@@ -70,7 +70,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} alt="avatar picture" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="avatar picture" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Education Background
               </h3>
@@ -113,12 +113,12 @@ export default function Home() {
               <p className="text-gray-800 py-1"></p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="avatar picture" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Relevent Skills
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Tools I Use</h4>
@@ -130,7 +130,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Mongo DB</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} alt="avatar picture" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 EXTRA CURRICULAR
               </h3>
@@ -153,7 +153,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've added valuable content for
+              developer, I have added valuable content for
               <span className="text-teal-500"> Local Businesses </span>
               and for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -172,6 +172,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt="avatar picture"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -180,6 +181,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
+                alt="avatar picture"
                 src={web2}
               />
             </div>
@@ -190,6 +192,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt="avatar picture"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -199,6 +202,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt="avatar picture"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -208,6 +212,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt="avatar picture"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -217,6 +222,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt="avatar picture"
               />
             </div>
           </div>
