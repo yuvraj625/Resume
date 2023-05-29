@@ -65,9 +65,15 @@ export default function Home() {
               be.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillYoutube />
+              <a href="https://twitter.com/INDYuvraj_Singh">
+                <AiFillTwitterCircle />
+              </a>
+              <a href="https://www.linkedin.com/in/yuvraj-singh-toriya-12975422a/">
+                <AiFillLinkedin />
+              </a>
+              <a href="https://github.com/yuvraj625">
+                <AiFillGithub />
+              </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image
@@ -114,12 +120,12 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Contact Me here !</h4>
               <p className="text-gray-800 py-1">+91 7579217338</p>
               <p className="text-gray-800 py-1">yuvrajsinghtoriya@gmail.com</p>
-              <p
+              <a
                 className="text-gray-800 py-1"
                 href="https://www.linkedin.com/in/yuvraj-singh-toriya-12975422a"
               >
                 Linkedin
-              </p>
+              </a>
               <p className="text-gray-800 py-1"></p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
