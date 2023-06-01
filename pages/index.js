@@ -4,7 +4,6 @@ import {
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
-
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
@@ -64,14 +63,25 @@ export default function Home() {
               figuring out how they worked and fixing them again. When I
               finished high school, I knew exactly what I wanted my career to
               be.
-             </p>
+            </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillYoutube />
+              <a href="https://twitter.com/INDYuvraj_Singh">
+                <AiFillTwitterCircle />
+              </a>
+              <a href="https://www.linkedin.com/in/yuvraj-singh-toriya-12975422a/">
+                <AiFillLinkedin />
+              </a>
+              <a href="https://github.com/yuvraj625">
+                <AiFillGithub />
+              </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} alt="avatar picture" layout="fill" objectFit="cover" />
+              <Image
+                src={deved}
+                alt="avatar picture"
+                layout="fill"
+                objectFit="cover"
+              />
             </div>
           </div>
         </section>
@@ -95,7 +105,12 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} alt="avatar picture" width={100} height={100} />
+              <Image
+                src={design}
+                alt="avatar picture"
+                width={100}
+                height={100}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Education Background
               </h3>
@@ -105,12 +120,12 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Contact Me here !</h4>
               <p className="text-gray-800 py-1">+91 7579217338</p>
               <p className="text-gray-800 py-1">yuvrajsinghtoriya@gmail.com</p>
-              <p
+              <a
                 className="text-gray-800 py-1"
                 href="https://www.linkedin.com/in/yuvraj-singh-toriya-12975422a"
               >
                 Linkedin
-              </p>
+              </a>
               <p className="text-gray-800 py-1"></p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -131,7 +146,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Mongo DB</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} alt="avatar picture" width={100} height={100} />
+              <Image
+                src={consulting}
+                alt="avatar picture"
+                width={100}
+                height={100}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 EXTRA CURRICULAR
               </h3>
@@ -182,8 +202,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                alt="avatar picture"
                 src={web2}
+                alt="avatar picture"
               />
             </div>
             <div className="basis-1/3 flex-1">
