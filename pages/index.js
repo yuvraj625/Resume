@@ -6,8 +6,8 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
-//import yuv from "../public/y.png";
+//import deved from "../public/dev-ed-wave.png";
+import yuv from "../public/y.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -118,7 +118,7 @@ export default function Home() {
                 National Institute of Technology Rourkela (2021-2025)
               </p>
               <h4 className="py-4 text-teal-600">Contact Me here !</h4>
-              <p className="text-gray-800 py-1">+91 7579217338</p>
+              <p className="text-gray-800 py-1"></p>
               <p className="text-gray-800 py-1">yuvrajsinghtoriya@gmail.com</p>
               <a
                 className="text-gray-800 py-1"
