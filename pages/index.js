@@ -6,8 +6,8 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
-//import yuv from "../public/y.png";
+//import deved from "../public/dev-ed-wave.png";
+import yuv from "../public/y.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image
-                src={deved}
+                src={yuv}
                 alt="avatar picture"
                 layout="fill"
                 objectFit="cover"
@@ -118,11 +118,17 @@ export default function Home() {
                 National Institute of Technology Rourkela (2021-2025)
               </p>
               <h4 className="py-4 text-teal-600">Contact Me here !</h4>
-              <p className="text-gray-800 py-1">+91 7579217338</p>
-              <p className="text-gray-800 py-1">yuvrajsinghtoriya@gmail.com</p>
+              <p className="text-gray-800 py-1"></p>
               <a
                 className="text-gray-800 py-1"
-                href="https://www.linkedin.com/in/yuvraj-singh-toriya-12975422a"
+                herf="https://linktr.ee/yuvraj_singh310/"
+              >
+                Click Here !
+              </a>
+              <br></br>
+              <a
+                className="text-gray-800 py-1"
+                href="https://www.linkedin.com/in/yuvraj-singh-12975422a/"
               >
                 Linkedin
               </a>
